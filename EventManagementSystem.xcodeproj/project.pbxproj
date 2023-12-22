@@ -16,6 +16,10 @@
 		3957CB8C2B35DB460006ECB1 /* EventManagementSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957CB8B2B35DB460006ECB1 /* EventManagementSystemTests.swift */; };
 		3957CB962B35DB460006ECB1 /* EventManagementSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957CB952B35DB460006ECB1 /* EventManagementSystemUITests.swift */; };
 		3957CB982B35DB460006ECB1 /* EventManagementSystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957CB972B35DB460006ECB1 /* EventManagementSystemUITestsLaunchTests.swift */; };
+		3957CBA52B35DFCC0006ECB1 /* AdaptiveScrollLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957CBA42B35DFCC0006ECB1 /* AdaptiveScrollLayout.swift */; };
+		3957CBA92B35EB270006ECB1 /* SeatChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957CBA82B35EB270006ECB1 /* SeatChartViewController.swift */; };
+		3957CBAE2B35F1BC0006ECB1 /* SeatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957CBAC2B35F1BC0006ECB1 /* SeatCollectionViewCell.swift */; };
+		3957CBAF2B35F1BC0006ECB1 /* SeatCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3957CBAD2B35F1BC0006ECB1 /* SeatCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		3957CB912B35DB460006ECB1 /* EventManagementSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventManagementSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3957CB952B35DB460006ECB1 /* EventManagementSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagementSystemUITests.swift; sourceTree = "<group>"; };
 		3957CB972B35DB460006ECB1 /* EventManagementSystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagementSystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3957CBA42B35DFCC0006ECB1 /* AdaptiveScrollLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveScrollLayout.swift; sourceTree = "<group>"; };
+		3957CBA82B35EB270006ECB1 /* SeatChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatChartViewController.swift; sourceTree = "<group>"; };
+		3957CBAC2B35F1BC0006ECB1 /* SeatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCollectionViewCell.swift; sourceTree = "<group>"; };
+		3957CBAD2B35F1BC0006ECB1 /* SeatCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeatCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				3957CB7D2B35DB460006ECB1 /* Assets.xcassets */,
 				3957CB7F2B35DB460006ECB1 /* LaunchScreen.storyboard */,
 				3957CB822B35DB460006ECB1 /* Info.plist */,
+				3957CBA42B35DFCC0006ECB1 /* AdaptiveScrollLayout.swift */,
+				3957CBA82B35EB270006ECB1 /* SeatChartViewController.swift */,
+				3957CBAC2B35F1BC0006ECB1 /* SeatCollectionViewCell.swift */,
+				3957CBAD2B35F1BC0006ECB1 /* SeatCollectionViewCell.xib */,
 			);
 			path = EventManagementSystem;
 			sourceTree = "<group>";
@@ -234,6 +246,7 @@
 				3957CB812B35DB460006ECB1 /* LaunchScreen.storyboard in Resources */,
 				3957CB7E2B35DB460006ECB1 /* Assets.xcassets in Resources */,
 				3957CB7C2B35DB440006ECB1 /* Main.storyboard in Resources */,
+				3957CBAF2B35F1BC0006ECB1 /* SeatCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3957CBA52B35DFCC0006ECB1 /* AdaptiveScrollLayout.swift in Sources */,
 				3957CB792B35DB440006ECB1 /* ViewController.swift in Sources */,
+				3957CBA92B35EB270006ECB1 /* SeatChartViewController.swift in Sources */,
 				3957CB752B35DB440006ECB1 /* AppDelegate.swift in Sources */,
 				3957CB772B35DB440006ECB1 /* SceneDelegate.swift in Sources */,
+				3957CBAE2B35F1BC0006ECB1 /* SeatCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
